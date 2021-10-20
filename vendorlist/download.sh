@@ -1,12 +1,12 @@
 #!/bin/bash
 
 function download_vl() {
-    wget -O vendorlist_"$1".json https://vendorlist.consensu.org/v-"$1"/vendorlist.json #|| rm vendorlist_"$1".json
+    wget -O vendorlist_"$1".json https://vendor-list.consensu.org/v-"$1"/vendorlist.json #|| rm vendorlist_"$1".json
     return $?
 }
 
 function download_vl_v2() {
-    wget -O v2/vendorlistv2_"$1".json https://vendorlist.consensu.org/v2/archives/vendor-list-v"$1".json #|| rm vendorlistv2_"$1".json
+    wget -O v2/vendorlistv2_"$1".json https://vendor-list.consensu.org/v2/archives/vendor-list-v"$1".json #|| rm vendorlistv2_"$1".json
     return $?
 }
 
