@@ -15,10 +15,10 @@ Author: Célestin Matte (Université Côte d'Azur, Inria, France)
 ## Dependencies
 
 - postgresql
-- python-tldextract
-- python-selenium
-- python-sqlalchemy
-- python-publicsuffix2
+- python3-tldextract
+- python3-selenium
+- python3-sqlalchemy
+- python3-publicsuffix2
 - chromium-chromedriver (ubuntu)
 - psycogs2 (ubuntu)
 - consent-string (nodejs package)
