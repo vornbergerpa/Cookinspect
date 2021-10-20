@@ -20,8 +20,8 @@ Author: Célestin Matte (Université Côte d'Azur, Inria, France)
 - python3-sqlalchemy
 - python3-publicsuffix2
 - chromium-chromedriver (ubuntu)
-- psycogs2 (ubuntu)
-- consent-string (nodejs package)
+- python3-psycopg2 (ubuntu)
+- consent-string (nodejs package)	#npm install --save consent-string
 - wget (to download vendorlists)
 
 ## Install procedure
